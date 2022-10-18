@@ -78,9 +78,9 @@ The following exchanges followed:
 | First & Last names |                     Considerations                                                                 |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Pasquale Di Donato |- NGDI organisations should comply with the eCH-0056 standard                                       |
-| Frank Gottsmann    |- They can't be forced to do so.                                                                    |
+| Frank Gottsmann    |- Private organisations can't be forced to do so unless there are contractual obligations.           
 |Raphaël Bovier      |- NGDI, BGDI, MGDI Geoservices are quite compliant, but there are services that are not included in eCH-0056<br>- It is important to update the standard so that they can be compliant.<br>- The eCH-0056 standard should be adapted more regularly so that the (N-B-M)GDI can offer compliant services.<br>- Can non-approved standards be incorporated into the process?                                                              |
-|Beat Tschanz        | - Geoservices would also work without a standard.<br>- We need to define the standards that are useful.<br>- It is important to ensure that they are used.<br>- Currently, the impact of eCH-0056 is not "pervasive".<br> Weneed to think about how do we achieve that impact.<br>- Propose best practice can make sense.|
+|Beat Tschanz        | - Geoservices would also work without a standard.<br>- We need to define the standards that are useful.<br>- It is important to ensure that they are used.<br>- Currently, the impact of eCH-0056 is not "pervasive".<br> We need to think about how do we achieve that impact.<br>- Propose best practice can make sense.|
 | Stefan Ziegler     |- The current process (6 years) is too long.<br>Standards should not be made on theory but based on practice.<br>- Nobody uses Atom Feeds.|
 | Pia Bereuter       |- Standards should be developed on the basis of a needs analysis.                                   |
 | Beat Tschanz       |-  An official standard of representation should be defined.<br>- The standardisation process needs to be redefined and updated|
@@ -100,15 +100,15 @@ A discussion took place on the standards to be considered in the revision of the
 |--------------------|-----------------------------------------------------|
 |   Raphaël Bovier   | - The standards should be choosen according to the associated national SDI (NGDI, BGDI, MGDI) and associated data & services |
 |    Beat Tschanz    | Portrayal und Download Services are to be considered|
-| Marco Bernasocchi  | - According to the OGC, OGC APIs are build on the legacy of WxS.<br>- Preferring only OGC APIs would be wrong.<br>- What are the weak points of the WMS standard?|
+| Marco Bernasocchi  | - According to the OGC, OGC APIs are build on the legacy of WxS.<br>- Preferring only OGC APIs would be wrong.<br>- What are the weak points of the WMS (Inspire) standard / service?|
 | Stefan Ziegler     | - Printing                                          |
 | Raphaël Bovier     | - How do we make way for new standards?<br>- Do we simply want to update existing standards or see what the need is?<br>- We are missing out on new technologies (e.g. 3D Mesh).|
 | Marco Bernasocchi  | - Should we consider "nice to have"?                |
 | Beat Tschanz       | - Minimal requirements should be defined<br>- The availability and quality of services should be considered.<br>- Atom feeds are not used and can therefore be deleted.|
 | Stefan Ziegler     | - No one follows the recommendations for mapping metadata (GM03) elements.|
-| Raphaël Arnaud     | - The section on metadata in eCH-0056 refers to the harmonisation of metadata described in the GM03 standard currently under revision.                                           |
+| Raphaël Arnaud     | - The section on metadata in eCH-0056 refers to the harmonisation of metadata described in the GM03 standard currently under revision.           
 | Pasquale Di Donnato | - Geopackage should not be considered as a standard  |
-| Frank Gottsmann    | - A more agile and faster process must be defined<br>- It is proposed to include the standards under development in a backlog in an annex to eCH-0056.|
+| Frank Gottsmann    | - A more agile and faster process must be defined<br>- It is proposed to include: "standards in development" in a backlog or in an annex to eCH-0056.|
 
 ## Document structure and process adaptation
 
@@ -119,7 +119,7 @@ A discussion took place on the drafting process and the current structure of the
 | Beat Tschanz       | - The revision process should be iterative and propose minor and major changes.<br>- The document structure has to ba adapted.|
 | Pia Bereuter       | - Comprehensibility is important.<br>- Standard should point the way.<br>- Configuration options should be integrated.|
 | Maria Klonner      | - Best practice should be the basis                 |
-| Frank Gottsmann    | - Maturity is an important indicator.<br>- In order to integrate new standards not yet validated, a variant would be that version 3.0 remains in use and that a version 4.0 is complementary.|
+| Frank Gottsmann    | - Maturity is an important indicator.<br>- In order to integrate new standards not yet validated, one option would be to work  more consciously with the different statuses of eCH documents: approved, superseded, revoked... (genehmigt, abgelöst, sistiert, aufgehoben... ). New elements can thus be added (e.g. OGC Feature API), while older elements (WFS, WMS etc.) - version 3.0 - can continue to be used until further notice. .|
 | Beat Tschanz       | - The current structure of eCH-0056 is too restrictive and does not lend itself well to some standards.|
 | Oliver Grimm       | - eCH-0056 should be a guide and propose a gentle impact to clarify open questions| 
 | Beat Tschanz       | - Versions should be prescribed including minor changes (release management).<br>- Minimal requirements should remain : Download / Search / Display.<br>- But the process should definitively be more agile.|
